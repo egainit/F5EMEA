@@ -7,7 +7,7 @@ This solution uses an ARM template to launch a 3-NIC deployment of a cloud-focus
 
 This template is a result of Azure adding support for multiple public/private IP addresses for each NIC.  This template also has the ability to create specify additional Public/Private IP addresses for the external "application" NIC to be used for passing traffic to virtual servers in a more traditional fashion.
 
-This is a POC build for a  with Pay as You Go (PAYG) licensing.
+This is a POC build with Pay as You Go (PAYG) licensing.
 
 
 ## Prerequisites and configuration notes
