@@ -40,7 +40,7 @@ We encourage you to use our [Slack channel](https://f5cloudsolutions.herokuapp.c
 ## Installation
 
 You have one option for deploying this solution:
-  - This is for a demo POC, Template from Portal was requested
+  - This is for a demo POC, Template from Portal was requested, however a deploy button was also setup:
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
