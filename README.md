@@ -28,13 +28,13 @@ Additionally, F5 provides checksums for all of our supported templates. For inst
 ## Supported instance types and hypervisors
   - For a list of supported Azure instance types for this solutions, see the **Azure instances for BIG-IP VE** section of https://support.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/bigip-ve-setup-msft-azure-12-1-0/1.html#guid-71265d82-3a1a-43d2-bae5-892c184cc59b
 
-  - For a list versions of the BIG-IP Virtual Edition (VE) and F5 licenses that are supported on specific hypervisors and Microsoft Azure, see https://support.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/ve-supported-hypervisor-matrix.html.
+  - For a list of the BIG-IP Virtual Edition (VE) and F5 licenses that are supported on specific hypervisors and Microsoft Azure, see https://support.f5.com/kb/en-us/products/big-ip_ltm/manuals/product/ve-supported-hypervisor-matrix.html.
 
 ### Help
 
-Please files issues directly to this Repo
+Please files issues directly to this Repo, this was created for a POC and is not covered by the F5 support agreements.
 
-We encourage you to use our [Slack channel](https://f5cloudsolutions.herokuapp.com) for discussion and assistance on F5 ARM templates.  This channel is typically monitored Monday-Friday 9-5 PST by F5 employees who will offer best-effort support.
+We encourage you to use our [Slack channel](https://f5cloudsolutions.herokuapp.com) for discussion and assistance on F5 ARM templates. For this specific ARM template ping @jmcalalang directly
 
 
 ## Installation
@@ -131,8 +131,7 @@ Note the hashed script-signature may be different in your template.<br>
 ## Filing Issues
 If you find an issue, we would love to hear about it.
 You have a choice when it comes to filing issues:
-  - Use the **Issues** link on the GitHub menu bar in this repository for items such as enhancement or feature requests and non-urgent bug fixes. Tell us as much as you can about what you found and how you found it.
-  - Contact F5 Technical support via your typical method for more time sensitive changes and other issues requiring immediate support.
+  - Use the **Issues** link on the GitHub menu bar in this repository for all support questions, this deployment is not F5 supported and was created for a POC to demo capabilities
 
 
 
