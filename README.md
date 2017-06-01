@@ -1,4 +1,4 @@
-# Deploying the BIG-IP VE in Azure - 3 NIC (Traditional Deployment)
+# Deploying the BIG-IP VE in Azure - 3 NIC (POC BUILD FOR A DEMO NOT SUPPORTED)
 
 
 ## Introduction
@@ -7,7 +7,7 @@ This solution uses an ARM template to launch a 3-NIC deployment of a cloud-focus
 
 This template is a result of Azure adding support for multiple public/private IP addresses for each NIC.  This template also has the ability to create specify additional Public/Private IP addresses for the external "application" NIC to be used for passing traffic to virtual servers in a more traditional fashion.
 
-This is a POC build for a customer with Pay as You Go (PAYG) licensing.
+This is a POC build for a  with Pay as You Go (PAYG) licensing.
 
 
 ## Prerequisites and configuration notes
@@ -40,7 +40,7 @@ We encourage you to use our [Slack channel](https://f5cloudsolutions.herokuapp.c
 ## Installation
 
 You have one option for deploying this solution:
-  - This is for a customer POC, Template from Portal was requested
+  - This is for a demo POC, Template from Portal was requested
 
 
 ### Template parameters
