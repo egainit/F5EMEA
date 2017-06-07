@@ -12,7 +12,6 @@ This is a POC build with Pay as You Go (PAYG) licensing.
 
 ## Prerequisites and configuration notes
   - **Important**: When you configure the admin password for the BIG-IP VE in the template, you cannot use the characters **#** or **'** (single quote).
-  - If you are deploying the BYOL template, you must have a valid BIG-IP license token.
   - See the **[Configuration Example](#config)** section for a configuration diagram and description for this solution.
   - See the important note about [optionally changing the BIG-IP Management port](#changing-the-big-ip-configuration-utility-gui-port).
 
@@ -59,7 +58,7 @@ You have one option for deploying this solution:
 | licenseKey1 | | For BYOL only. The license token from the F5 licensing server. This license is used for the first F5 BIG-IP VE. |
 | licensedBandwidth | | For PAYG only. The amount of licensed bandwidth (Mbps) you want the PAYG image to use. |
 | numberOfExternalIps | 1,2,3,4,5,10,25,50 | The number of public/private IPs to deploy for the application traffic ("Dynamic" external) NIC on the BIG-IP to be used for virtual servers. |
-| vnetAddressPrefix | x | The start of the CIDR block(/16) used by the BIG-IP VEs when creating the VNET and subnets.  You MUST type just the first two octets of the /16 virtual network that will be created, for example '10.0', '10.100', 192.168' |
+| vnetAddressPrefix | 192.168 | The start of the CIDR block(/16) used by the BIG-IP VEs when creating the VNET and subnets.  You MUST type just the first two octets of the /16 virtual network that will be created, for example '10.0', '10.100', 192.168' (Default is 192.168.)|
 | restrictedSrcAddress | x | Restricts management access to a specific network or address. Enter a IP address or address range in CIDR notation, or an asterisk for all sources. |
 | tagValues | x | Additional key-value pair tags to be added to each Azure resource. |
 
