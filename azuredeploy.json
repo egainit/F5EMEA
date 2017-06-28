@@ -31,7 +31,7 @@
             "type": "string"
         },
         "instanceName": {
-            "defaultValue": "AZW2EXTLB01",
+            "defaultValue": "azw2extlb01",
             "metadata": {
                 "description": "Name of the Virtual Machine."
             },
