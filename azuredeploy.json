@@ -203,7 +203,7 @@
         "bigIpMgmtPort": "[variables('bigIpVersionPortMap')[variables('bigIpNicPortValue')].Port]",
         "availabilitySetName": "[concat(variables('dnsLabel'), '-avset')]",
         "nicName": "[concat(variables('dnsLabel'), '-mgmt0')]",
-        "virtualNetworkName": "NA_ECV1ECV2_DMZ_55.0",
+        "virtualNetworkName": "NA_ECV1ECV2_55.0",
         "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
         "vnetAddressPrefix": "[concat(parameters('vnetAddressPrefix'),'.0.0/22')]",
         "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups/',concat(variables('dnsLabel'),'-nsg'))]",
