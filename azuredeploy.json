@@ -31,7 +31,7 @@
             "type": "string"
         },
         "instanceName": {
-            "defaultValue": "azw2extlb01",
+            "defaultValue": "AZW2EXTLB01",
             "metadata": {
                 "description": "Name of the Virtual Machine."
             },
@@ -118,7 +118,7 @@
                 50
 
             ],
-            "defaultValue": 50,
+            "defaultValue": 10,
             "metadata": {
                 "description": "The number of public/private IP addresses you want to deploy for the application traffic (external) NIC on the BIG-IP VE to be used for virtual servers."
             },
